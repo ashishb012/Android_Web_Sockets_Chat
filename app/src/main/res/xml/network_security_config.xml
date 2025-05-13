@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">YOUR_LOCAL_IP_ADDRESS</domain> <!-- Replace with your computer's local IP -->
+        <domain includeSubdomains="true">localhost</domain> <!-- Useful if you are testing on an emulator connecting to 10.0.2.2 -->
+        <!-- Add other domains if needed -->
+    </domain-config>
+    <!-- You can add other configurations here for production -->
+</network-security-config>

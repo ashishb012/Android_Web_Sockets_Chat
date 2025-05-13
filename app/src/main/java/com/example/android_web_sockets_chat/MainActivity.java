@@ -187,3 +187,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
+
+
+// Update your websocket server ip address or your device ip address if using localhost in network-security-config.xml file
