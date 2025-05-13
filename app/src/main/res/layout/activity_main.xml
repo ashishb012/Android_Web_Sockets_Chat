@@ -7,7 +7,6 @@
     tools:context=".MainActivity"
     android:layout_marginTop="30dp"
     android:layout_marginBottom="15dp"
-    android:layout_margin="5dp"
     android:padding="16dp">
 
     <EditText
